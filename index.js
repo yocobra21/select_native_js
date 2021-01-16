@@ -1,6 +1,6 @@
 import { Select } from '/select/select';
 import './select/styles.scss';
 
-const select = new Select();
+const select = new Select('#select', { classNames: 'select' });
 
-select.getMsg('hello');
+window.s = select;
